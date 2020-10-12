@@ -1,0 +1,58 @@
+* {
+  font-family: "Roboto", sans-serif;
+  text-transform: capitalize;
+}
+
+.component-overlay {
+  background-image: linear-gradient(to bottom,rgb(255, 255, 255), rgb(244, 246, 247));
+  padding: 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.component {
+  margin: 6rem auto;
+  width: 24rem;
+  position: relative;
+  display: flex;
+  /* box-shadow: 1px 1px 2px 4px rgb(212, 212, 212), 1px 1px 6px 6px rgb(128, 130, 131); */
+  background-color: rgb(228, 226, 226);
+  flex-direction: column;
+  padding: 5rem 2rem;
+  border-radius: .4rem;
+}
+
+.checkbox {
+  display: flex;
+  flex-direction: row;
+}
+.checkbox-outer {
+  width: 6rem;
+  border: 2px solid rgb(145, 145, 145, .2);
+  display: flex;
+  margin-right: .6rem;
+  align-items: center;
+  border-radius: 4rem;
+  padding: .4rem ;
+  background-color: rgb(236, 236, 236);
+  
+}
+.checkbox-inner {
+  width: 25%;
+  height: 100%;
+  border-radius: 50%;
+  border:  solid rgb(235, 202, 15, .5);
+  background-color: orange;
+  margin-left: 4.3rem;
+
+}
+
+button {
+  color: white;
+  background-color: rgb(27, 27, 90);
+  border: 0;
+  padding: .9rem;
+  margin-top: 1rem ;
+  border-radius: .4rem;
+  
+}
+
